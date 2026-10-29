@@ -258,3 +258,28 @@ export function assertPageBasics(assert, rel, html) {
 export function htmlFiles(outDir) {
   return walk(outDir).filter((f) => f.endsWith('.html'));
 }
+
+// ---------- rejected builds ----------
+// Builds `mutate(designs)` through a fresh project and asserts a DataError with
+// `code`, with the output directory left exactly as it was found.
+export async function expectRejectedBuild(assert, code, mutate) {
+  const designs = structuredClone(loadFixtureDesigns());
+  const result = mutate(designs);
+  const project = makeProject({ designs: result ?? designs });
+  mkdirSync(join(project.outDir, 'apparel', 'sentinel'), { recursive: true });
+  writeFileSync(join(project.outDir, 'apparel', 'sentinel', 'index.html'), 'keep me');
+  writeFileSync(join(project.outDir, 'CNAME'), 'keep.example');
+  const before = snapshot(project.outDir);
+
+  const error = await errorOf(() => build(project));
+  assert.ok(error instanceof DataError, `expected DataError, got ${error && error.constructor.name}: ${error && error.message}`);
+  assert.equal(error.code, code);
+  assert.notEqual(error.message, '');
+  assert.deepEqual(snapshot(project.outDir), before, 'outDir is unchanged after a rejected build');
+
+  const fresh = { ...project, outDir: join(tempDir('tou-fresh'), 'docs') };
+  const error2 = await errorOf(() => build(fresh));
+  assert.ok(error2 instanceof DataError);
+  assert.equal(error2.code, code);
+  assert.deepEqual(snapshot(fresh.outDir), {}, 'no output directory is created for rejected data');
+}

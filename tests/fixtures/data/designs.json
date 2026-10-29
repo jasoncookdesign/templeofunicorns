@@ -19,7 +19,35 @@
       "listed": true,
       "availability": "on-request",
       "status": "archived",
-      "publishedAt": "2024-12-02"
+      "publishedAt": "2024-12-02",
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (in)",
+          "Width (in)",
+          "Chest (in)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ]
+        ]
+      }
     },
     {
       "handle": "dnfnb-oversized-graff-tee",
@@ -33,7 +61,31 @@
       "listed": true,
       "availability": "on-request",
       "status": "active",
-      "publishedAt": null
+      "publishedAt": null,
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (in)",
+          "Width (in)"
+        ],
+        "rows": [
+          [
+            "M",
+            "28",
+            "21"
+          ],
+          [
+            "L",
+            "29",
+            "23"
+          ],
+          [
+            "XL",
+            "30",
+            "24"
+          ]
+        ]
+      }
     },
     {
       "handle": "rock-and-roll-hoodie",
@@ -47,7 +99,29 @@
       "listed": true,
       "availability": "on-request",
       "status": "archived",
-      "publishedAt": "2025-01-15"
+      "publishedAt": "2025-01-15",
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length & Width (in)",
+          "Sleeve \"A\" (in)",
+          "Hem <max>"
+        ],
+        "rows": [
+          [
+            "L",
+            "23 ⅝ & 21",
+            "8 \"flat\"",
+            "< 5"
+          ],
+          [
+            "XL",
+            "25 ¼",
+            "9 O'Neil's",
+            "> 4 & 2"
+          ]
+        ]
+      }
     },
     {
       "handle": "cafe-cosmos-crewneck",
