@@ -79,3 +79,11 @@ test('the previous address appears in no tracked file', () => {
   }
   assert.deepEqual(offenders, []);
 });
+
+for (const folder of ['src', 'docs']) {
+  test(`the real ${folder}/ home page links its "send an email" call to action to the contact address`, () => {
+    const mailtos = mailtosOf(read(join(REPO, folder), 'index.html'));
+    assert.equal(mailtos.length, 1, 'one mailto on the home page');
+    assert.equal(mailtos[0].attrs.href, `mailto:${CONTACT}`);
+  });
+}
