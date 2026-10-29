@@ -1,0 +1,95 @@
+{
+  "designs": [
+    {
+      "handle": "percolator-classic-tee",
+      "title": "Percolator Classic Tee",
+      "description": [
+        "A heavyweight cotton tee with a coffee percolator graphic on the chest.",
+        "Printed in small batches in Austin."
+      ],
+      "collections": ["The DJ Collection"],
+      "options": [
+        { "name": "Size", "values": ["Small", "Medium", "Large"] },
+        { "name": "Color", "values": ["Washed Black", "Bone"] }
+      ],
+      "images": [
+        { "file": "assets/designs/percolator-classic-tee/01.png", "alt": "Black tee printed with a red percolator" },
+        { "file": "assets/designs/percolator-classic-tee/02.svg", "alt": "Close-up of the percolator print" }
+      ],
+      "listed": true,
+      "availability": "on-request",
+      "status": "archived",
+      "publishedAt": "2024-12-02"
+    },
+    {
+      "handle": "dnfnb-oversized-graff-tee",
+      "title": "DnF'nB Oversized Graff Tee",
+      "description": ["Oversized fit with a graffiti-style lettering print across the back."],
+      "collections": ["The DJ Collection", "Graff"],
+      "options": [{ "name": "Size", "values": ["Medium", "Large", "Extra Large"] }],
+      "images": [
+        { "file": "assets/designs/dnfnb-oversized-graff-tee/01.png", "alt": "Green oversized tee with graffiti lettering" }
+      ],
+      "listed": true,
+      "availability": "on-request",
+      "status": "active",
+      "publishedAt": null
+    },
+    {
+      "handle": "rock-and-roll-hoodie",
+      "title": "Rock & Roll \"Unicorn\" Hoodie",
+      "description": ["Fleece-lined & garment dyed, with a hand-drawn unicorn on the front."],
+      "collections": ["Outerwear"],
+      "options": [{ "name": "Size", "values": ["Small", "Medium"] }],
+      "images": [
+        { "file": "assets/designs/rock-and-roll-hoodie/01.png", "alt": "Blue hoodie with a \"unicorn\" print" }
+      ],
+      "listed": true,
+      "availability": "on-request",
+      "status": "archived",
+      "publishedAt": "2025-01-15"
+    },
+    {
+      "handle": "cafe-cosmos-crewneck",
+      "title": "Café Cosmos Crewneck",
+      "description": ["A soft crewneck with a small cosmos motif on the sleeve."],
+      "collections": ["Outerwear"],
+      "options": [{ "name": "Color", "values": ["Mustard"] }],
+      "images": [
+        { "file": "assets/designs/cafe-cosmos-crewneck/01.png", "alt": "Yellow crewneck sweatshirt" }
+      ],
+      "listed": true,
+      "availability": "on-request",
+      "status": "archived",
+      "publishedAt": "2025-02-20"
+    },
+    {
+      "handle": "less-than-tee",
+      "title": "Less <Than> Tee",
+      "description": ["Runs small when worn for < 5 years.", "Retired from the line."],
+      "collections": ["Archive"],
+      "options": [{ "name": "Size", "values": ["Large"] }],
+      "images": [
+        { "file": "assets/designs/less-than-tee/01.png", "alt": "Teal tee with angle bracket lettering" }
+      ],
+      "listed": true,
+      "availability": "archive",
+      "status": "archived",
+      "publishedAt": "2023-06-30"
+    },
+    {
+      "handle": "hidden-prototype-hoodie",
+      "title": "Hidden Prototype Hoodie",
+      "description": ["An unreleased sample that is not part of the public archive."],
+      "collections": ["Samples"],
+      "options": [{ "name": "Size", "values": ["Medium"] }],
+      "images": [
+        { "file": "assets/designs/hidden-prototype-hoodie/01.png", "alt": "Purple prototype hoodie" }
+      ],
+      "listed": false,
+      "availability": "on-request",
+      "status": "archived",
+      "publishedAt": null
+    }
+  ]
+}
