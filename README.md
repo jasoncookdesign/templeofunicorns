@@ -24,7 +24,7 @@ node build.mjs      # build the site into docs/
 | `--assets` | `assets` | Root folder that holds the design images |
 | `--out` | `docs` | Output folder |
 
-The build exits with a non-zero status and prints a message when the data file is invalid. In that case nothing is written to the output folder. The same build is available as a module: `import { build, DataError } from './build.mjs'` and `build({ dataPath, srcDir, assetsDir, outDir })`.
+Data is validated before anything is written, so a rejected build leaves the output folder exactly as it was. The build also fails, without writing, if a listed design's image file or `src/index.html` is missing. It exits with a non-zero status and prints a message when the data file is invalid. In that case nothing is written to the output folder. The same build is available as a module: `import { build, DataError } from './build.mjs'` and `build({ dataPath, srcDir, assetsDir, outDir })`.
 
 ## Data file
 
@@ -65,7 +65,7 @@ The build exits with a non-zero status and prints a message when the data file i
 | `listed` | `true` or `false`. A design with `false` gets no page and does not appear in the apparel index. |
 | `availability` | Exactly `"on-request"` or `"archive"`. On-request pages carry one "ask about this design" email link; archive pages carry none. |
 | `status` | Exactly `"active"` or `"archived"`: the store status when the data was exported, kept for the record. |
-| `publishedAt` | Date as `YYYY-MM-DD`, or `null`. |
+| `publishedAt` | Date as `YYYY-MM-DD`, or `null`. May be omitted, which counts as `null`. |
 
 There is no price field. Any design with a key named `price`, or any key containing "price" in any letter case, is rejected.
 
@@ -84,14 +84,14 @@ A design that breaks a rule makes the build throw `DataError`, whose `code` is o
 
 ## What the build writes to `docs/`
 
-- `index.html`, `404.html`, `site.css`, `site.js`: copies of the files in `src/`.
+- Everything in `src/` (`index.html`, `404.html`, `site.css`, `site.js`), copied unchanged. Every generated page links `/site.css` and `/site.js`.
 - `CNAME` (containing `templeofunicorns.com`) and `.nojekyll`.
-- `assets/designs/...`: the design images.
+- `assets/designs/...`: the images of listed designs. Images of unlisted designs are not published.
 - `apparel/index.html`: every listed design with its title, link, and first image.
 - `apparel/<handle>/index.html`: one page per listed design.
 - `products/<handle>/index.html`: one redirect page per design, listed or not, so old store links keep working. Listed designs redirect to their page; unlisted designs redirect to `/apparel/`.
 
-The build is deterministic, so running it twice gives byte-identical output. It deletes and recreates `docs/apparel/` and `docs/products/` on every run, so removing a design from the data file removes its pages.
+The build is deterministic, so running it twice gives byte-identical output. It deletes and recreates `docs/apparel/`, `docs/products/`, and `docs/assets/` on every run, so removing a design from the data file removes its pages and images.
 
 Do not edit files in `docs/` by hand; change `src/`, `data/`, or `assets/` and run `node build.mjs`.
 
