@@ -1,7 +1,7 @@
 // Static site generator for the Temple of Unicorns design archive.
 // Usage: node build.mjs [--data <file>] [--src <dir>] [--assets <dir>] [--out <dir>]
-import { cpSync, existsSync, mkdirSync, readFileSync, realpathSync, rmSync, writeFileSync } from 'node:fs';
-import { dirname, join, normalize } from 'node:path';
+import { copyFileSync, cpSync, existsSync, mkdirSync, readdirSync, readFileSync, realpathSync, rmSync, writeFileSync } from 'node:fs';
+import { dirname, join, normalize, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export class DataError extends Error {
@@ -65,6 +65,21 @@ function validate(designs) {
     for (const field of REQUIRED) {
       if (d[field] === undefined || d[field] === null) fail('missing-field', `${label}: missing "${field}".`);
     }
+    if (typeof d.listed !== 'boolean') fail('missing-field', `${label}: "listed" must be true or false.`);
+    if (!Array.isArray(d.description) || !d.description.every((p) => typeof p === 'string')) {
+      fail('missing-field', `${label}: "description" must be an array of strings.`);
+    }
+    if (d.collections !== undefined && d.collections !== null) {
+      if (!Array.isArray(d.collections) || !d.collections.every((c) => typeof c === 'string')) {
+        fail('missing-field', `${label}: "collections" must be an array of strings.`);
+      }
+    }
+    if (d.options !== undefined && d.options !== null) {
+      const ok =
+        Array.isArray(d.options) &&
+        d.options.every((o) => o && isText(o.name) && Array.isArray(o.values) && o.values.every(isText));
+      if (!ok) fail('missing-field', `${label}: "options" must be an array of { name, values } with a non-empty name and non-empty string values.`);
+    }
     if (typeof d.handle !== 'string' || !/^[a-z0-9][a-z0-9-]*$/.test(d.handle)) {
       fail('bad-handle', `${label}: the handle must be a lower-case slug (letters, digits, hyphens).`);
     }
@@ -86,6 +101,7 @@ function validate(designs) {
         fail('missing-alt', `${label}: every image needs non-empty alt text.`);
       }
       if (typeof image.file !== 'string' || image.file === '') fail('missing-field', `${label}: every image needs a "file".`);
+      if (!image.file.startsWith('assets/')) fail('missing-field', `${label}: image file "${image.file}" must start with "assets/".`);
     }
   }
 }
@@ -234,6 +250,24 @@ function redirectPage(d) {
 }
 
 // ---------- build ----------
+// True when the real path of `file` lies inside the real path of `root`.
+function insideReal(root, file) {
+  return realpathSync(file).startsWith(realpathSync(root) + sep);
+}
+
+// The first file under `dir` whose real path leaves `dir`, or null.
+function listSymlinkEscapes(dir) {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = join(dir, entry.name);
+    if (!insideReal(dir, full)) return full;
+    if (entry.isDirectory()) {
+      const nested = listSymlinkEscapes(full);
+      if (nested) return nested;
+    }
+  }
+  return null;
+}
+
 export function build({ dataPath, srcDir, assetsDir, outDir } = {}) {
   const { designs } = JSON.parse(readFileSync(dataPath, 'utf8'));
   validate(designs);
@@ -244,6 +278,7 @@ export function build({ dataPath, srcDir, assetsDir, outDir } = {}) {
     const relative = normalize(image.file.replace(/^assets\//, ''));
     const source = join(assetsDir, relative);
     if (relative.startsWith('..') || !existsSync(source)) throw new Error(`Image not found: ${image.file}`);
+    if (!insideReal(assetsDir, source)) throw new Error(`Image resolves outside the assets folder: ${image.file}`);
     imageSources.set(image.file, source);
   }
   const brand = {
@@ -251,11 +286,13 @@ export function build({ dataPath, srcDir, assetsDir, outDir } = {}) {
     icon: existsSync(join(srcDir, ICON_FILE)),
   };
   if (!existsSync(join(srcDir, 'index.html'))) throw new Error(`Missing ${join(srcDir, 'index.html')}`);
+  const escaped = listSymlinkEscapes(srcDir);
+  if (escaped) throw new Error(`Source file resolves outside the source folder: ${escaped}`);
 
   // Everything is valid: only now is the output folder touched.
   mkdirSync(outDir, { recursive: true });
   for (const dir of GENERATED_DIRS) rmSync(join(outDir, dir), { recursive: true, force: true });
-  cpSync(srcDir, outDir, { recursive: true });
+  cpSync(srcDir, outDir, { recursive: true, dereference: true });
   const put = (rel, content) => {
     mkdirSync(dirname(join(outDir, rel)), { recursive: true });
     writeFileSync(join(outDir, rel), content);
@@ -264,7 +301,7 @@ export function build({ dataPath, srcDir, assetsDir, outDir } = {}) {
   put('.nojekyll', '');
   for (const [file, source] of imageSources) {
     mkdirSync(dirname(join(outDir, file)), { recursive: true });
-    cpSync(source, join(outDir, file));
+    copyFileSync(source, join(outDir, file)); // follows a symlink and writes a regular file
   }
   put('apparel/index.html', indexPage(listed, brand));
   for (const d of listed) put(`apparel/${d.handle}/index.html`, detailPage(d, brand));
