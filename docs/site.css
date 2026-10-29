@@ -5,7 +5,7 @@
   --ink-2: #b4b4b4;
   --rule: #3a3a3a;
   --focus: #ffffff;
-  --slab: Rockwell, "Rockwell Nova", "Roboto Slab", "Courier New", Georgia, serif;
+  --slab: Rockwell, "Rockwell Nova", "Roboto Slab", Georgia, serif;
   --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --gap: 2px;
   --pad: 16px;
@@ -276,7 +276,7 @@ p {
 
 .fact .label {
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-2);
@@ -322,6 +322,11 @@ p {
   overflow-x: auto;
 }
 
+.table-wrap:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
 .size-guide {
   width: 100%;
   border-collapse: collapse;
@@ -331,7 +336,7 @@ p {
 
 .size-guide caption {
   padding-bottom: 8px;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: left;
@@ -349,7 +354,7 @@ p {
 }
 
 .size-guide thead th {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-2);
 }
 
@@ -368,10 +373,6 @@ p {
   .record {
     grid-column: 3;
     grid-row: 1 / span var(--rows);
-    position: sticky;
-    top: 0;
-    max-height: 100vh;
-    overflow-y: auto;
     max-width: none;
     padding: 28px 24px 32px;
     border-left: 1px solid var(--rule);

@@ -160,7 +160,7 @@ function sizeGuideTable(guide) {
   const rows = guide.rows
     .map(([label, ...cells]) => `<tr><th scope="row">${esc(label)}</th>${cells.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`)
     .join('\n');
-  return `<div class="table-wrap"><table class="size-guide">
+  return `<div class="table-wrap" role="region" aria-label="Size guide" tabindex="0"><table class="size-guide">
 <caption>Size guide</caption>
 <thead><tr>${head}</tr></thead>
 <tbody>

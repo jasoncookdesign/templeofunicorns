@@ -1,6 +1,6 @@
 # Temple of Unicorns
 
-A static design archive for the Temple of Unicorns streetwear brand, published at https://templeofunicorns.com. The pages are plain HTML, CSS, and JavaScript with no framework and no runtime dependencies. There is no cart, no checkout, and no payment information. Visitors browse past designs and, for designs marked on-request, email the shop to ask about them.
+A static design archive for the Temple of Unicorns streetwear brand, published at https://templeofunicorns.com. The pages are plain HTML, CSS, and JavaScript with no framework and no runtime dependencies. There is no cart, no checkout, and no payment information. Visitors browse past designs and, for designs marked on-request, email the site owner to ask about them.
 
 A small Node script reads one data file and generates the catalog pages. The story page, the 404 page, the stylesheet, the script, and the logo files are written by hand.
 
@@ -24,7 +24,7 @@ node build.mjs      # build the site into docs/
 | `--assets` | `assets` | Root folder that holds the design images |
 | `--out` | `docs` | Output folder |
 
-Data is validated before anything is written, so a rejected build leaves the output folder exactly as it was. The build also fails, without writing, if a listed design's image file or `src/index.html` is missing. It exits with a non-zero status and prints a message when the data file is invalid. In that case nothing is written to the output folder. The same build is available as a module: `import { build, DataError } from './build.mjs'` and `build({ dataPath, srcDir, assetsDir, outDir })`.
+Data is validated before anything is written. The build also fails, without writing, if a listed design's image file or `src/index.html` is missing, or if a symlink in the assets or source folder resolves outside that folder. In every one of these cases the build exits with a non-zero status, prints a message, and leaves the output folder exactly as it was. Symlinks that stay inside their folder are copied as regular files, never as symlinks. The same build is available as a module: `import { build, DataError } from './build.mjs'` and `build({ dataPath, srcDir, assetsDir, outDir })`.
 
 ## Data file
 
@@ -62,21 +62,21 @@ Data is validated before anything is written, so a rejected build leaves the out
 | --- | --- |
 | `handle` | Unique lower-case slug (letters, digits, hyphens). Used in every URL for the design. |
 | `title` | Display name. Any characters are allowed; the build escapes them. |
-| `description` | Array of plain-text paragraphs. No HTML. |
-| `collections` | Array of collection names the design belongs to. |
-| `options` | Array of `{ "name", "values" }` objects, shown as plain lists. |
-| `images` | At least one `{ "file", "alt" }` object. `file` is the path of the image relative to the folder that contains `assets/`; `alt` must not be empty. The first image is the one shown in the apparel index. |
+| `description` | Array of plain-text strings, one per paragraph. No HTML. |
+| `collections` | Optional. Array of collection names (strings) the design belongs to. |
+| `options` | Optional. Array of `{ "name", "values" }` objects, where `name` is a non-empty string and `values` is an array of non-empty strings. Shown as plain lists. |
+| `images` | At least one `{ "file", "alt" }` object. `file` is the path of the image relative to the folder that contains `assets/` and must start with `assets/`; `alt` must not be empty. The first image is the one shown in the apparel index. |
 | `sizeGuide` | Optional. An object with `columns` (a non-empty list of non-empty strings; the first column is the size label) and `rows` (a non-empty list; each row is a list of exactly as many non-empty strings as there are columns). Measurements are kept as strings, exactly as written (for example `"23 ⅝"`). May be omitted or `null`, in which case the page shows no size section. |
-| `listed` | `true` or `false`. A design with `false` gets no page and does not appear in the apparel index. |
+| `listed` | The boolean `true` or `false` (a string such as `"no"` is rejected). A design with `false` gets no page and does not appear in the apparel index. |
 | `availability` | Exactly `"on-request"` or `"archive"`. On-request pages carry one "ask about this design" email link; archive pages carry none. |
 | `status` | Exactly `"active"` or `"archived"`: the store status when the data was exported, kept for the record. |
 | `publishedAt` | Date as `YYYY-MM-DD`, or `null`. May be omitted, which counts as `null`. |
 
-A design with a `sizeGuide` shows it on its page, after the description, as one table captioned "Size guide". The first row holds the column headings, and the first cell of each row is a row heading. The table sits in a wrapper that scrolls sideways on narrow screens. All text is escaped. The build renders a size guide whenever the data has one, whatever the design's `availability`.
+A design with a `sizeGuide` shows it on its page, after the description, as one table captioned "Size guide". The first row holds the column headings, and the first cell of each row is a row heading. The table sits in a wrapper that scrolls sideways on narrow screens; the wrapper is a labelled region ("Size guide") that can be focused with the keyboard and shows a focus ring. All text is escaped. The build renders a size guide whenever the data has one, whatever the design's `availability`.
 
 There is no price field. Any design with a key named `price`, or any key containing "price" in any letter case, is rejected.
 
-A design that breaks a rule makes the build throw `DataError`, whose `code` is one of `duplicate-handle`, `missing-field`, `bad-availability`, `bad-status`, `missing-alt`, `no-images`, `price-field`, `bad-handle`, or `bad-published-at`, or `bad-size-guide`. Size guides are validated for every design, listed or not.
+A design that breaks a rule makes the build throw `DataError`, whose `code` is one of `duplicate-handle`, `missing-field`, `bad-availability`, `bad-status`, `missing-alt`, `no-images`, `price-field`, `bad-handle`, `bad-published-at`, or `bad-size-guide`. The `missing-field` code also covers a field of the wrong shape: a `description`, `options`, or `collections` value that is not the type described above, a `listed` value that is not a boolean, and an image `file` that does not start with `assets/`. Size guides are validated for every design, listed or not.
 
 ## Repository layout
 
@@ -106,7 +106,7 @@ The build is deterministic, so running it twice gives byte-identical output. It 
 
 ## Design
 
-The site uses a neutral charcoal page (`color-scheme: dark`) so the design images are the only color. Text meets a 4.5:1 contrast ratio or better, focus rings are 3px, interactive targets are at least 44px, and animation is turned off for visitors who ask for reduced motion. Catalog tiles are uniform square frames with the whole image visible and a title area two lines tall; longer titles wrap in full. A detail page lists the status, colors, and sizes as labelled rows, followed by the description and the size guide.
+The site uses a neutral charcoal page (`color-scheme: dark`) so the design images are the only color. Text meets a 4.5:1 contrast ratio or better, focus rings are 3px, interactive targets are at least 44px, and animation is turned off for visitors who ask for reduced motion. Catalog tiles are uniform square frames with the whole image visible and a title area two lines tall; longer titles wrap in full. A detail page lists the status, colors, and sizes as labelled rows, followed by the description and the size guide. On wide screens the record sits in a column beside the images and scrolls with the page. Text is never smaller than 14px. Headings use a slab serif stack (`Rockwell`, `Rockwell Nova`, `Roboto Slab`, `Georgia`, then the generic serif).
 
 Do not edit files in `docs/` by hand; change `src/`, `data/`, or `assets/` and run `node build.mjs`.
 
