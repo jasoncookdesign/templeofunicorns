@@ -137,6 +137,24 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "A (inches)",
+          "B (inches)",
+          "C (inches)",
+          "D (inches)"
+        ],
+        "rows": [
+          [
+            "One size",
+            "18 ⅞-23 ⅝",
+            "4 ½",
+            "2 ⅜",
+            "7 ⅛"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/temple-of-unicorns-flat-bill-snapback/01.webp",
@@ -204,7 +222,7 @@
         }
       ],
       "listed": true,
-      "availability": "archive",
+      "availability": "on-request",
       "status": "archived",
       "publishedAt": null
     },
@@ -228,6 +246,24 @@
         "Products"
       ],
       "options": [],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "A (inches)",
+          "B (inches)",
+          "C (inches)",
+          "D (inches)"
+        ],
+        "rows": [
+          [
+            "One size",
+            "22 -24 ⅜",
+            "5 ½",
+            "2 ¾",
+            "9"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/d-b-drum-bass-camouflage-trucker-cap/01.webp",
@@ -251,7 +287,7 @@
         }
       ],
       "listed": true,
-      "availability": "archive",
+      "availability": "on-request",
       "status": "archived",
       "publishedAt": null
     },
