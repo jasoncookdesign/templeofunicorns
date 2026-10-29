@@ -18,7 +18,7 @@ const mod = await import(pathToFileURL(BUILD_MODULE).href);
 export const build = mod.build;
 export const DataError = mod.DataError;
 
-export const RECIPIENT = 'templeofunicorns@jasoncookdesign.com';
+export const RECIPIENT = 'contact@templeofunicorns.com';
 
 // ---------- temp dirs ----------
 const made = [];
