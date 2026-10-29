@@ -45,6 +45,10 @@ Data is validated before anything is written, so a rejected build leaves the out
       "images": [
         { "file": "assets/designs/percolator-classic-tee/01.jpg", "alt": "Black tee printed with ..." }
       ],
+      "sizeGuide": {
+        "columns": ["Size", "Length (in)", "Width (in)"],
+        "rows": [["S", "28", "18"], ["M", "29", "20"]]
+      },
       "listed": true,
       "availability": "on-request",
       "status": "archived",
@@ -62,14 +66,17 @@ Data is validated before anything is written, so a rejected build leaves the out
 | `collections` | Array of collection names the design belongs to. |
 | `options` | Array of `{ "name", "values" }` objects, shown as plain lists. |
 | `images` | At least one `{ "file", "alt" }` object. `file` is the path of the image relative to the folder that contains `assets/`; `alt` must not be empty. The first image is the one shown in the apparel index. |
+| `sizeGuide` | Optional. An object with `columns` (a non-empty list of non-empty strings; the first column is the size label) and `rows` (a non-empty list; each row is a list of exactly as many non-empty strings as there are columns). Measurements are kept as strings, exactly as written (for example `"23 ⅝"`). May be omitted or `null`, in which case the page shows no size section. |
 | `listed` | `true` or `false`. A design with `false` gets no page and does not appear in the apparel index. |
 | `availability` | Exactly `"on-request"` or `"archive"`. On-request pages carry one "ask about this design" email link; archive pages carry none. |
 | `status` | Exactly `"active"` or `"archived"`: the store status when the data was exported, kept for the record. |
 | `publishedAt` | Date as `YYYY-MM-DD`, or `null`. May be omitted, which counts as `null`. |
 
+A design with a `sizeGuide` shows it on its page, after the description, as one table captioned "Size guide". The first row holds the column headings, and the first cell of each row is a row heading. The table sits in a wrapper that scrolls sideways on narrow screens. All text is escaped. The build renders a size guide whenever the data has one, whatever the design's `availability`.
+
 There is no price field. Any design with a key named `price`, or any key containing "price" in any letter case, is rejected.
 
-A design that breaks a rule makes the build throw `DataError`, whose `code` is one of `duplicate-handle`, `missing-field`, `bad-availability`, `bad-status`, `missing-alt`, `no-images`, `price-field`, `bad-handle`, or `bad-published-at`.
+A design that breaks a rule makes the build throw `DataError`, whose `code` is one of `duplicate-handle`, `missing-field`, `bad-availability`, `bad-status`, `missing-alt`, `no-images`, `price-field`, `bad-handle`, or `bad-published-at`, or `bad-size-guide`. Size guides are validated for every design, listed or not.
 
 ## Repository layout
 
