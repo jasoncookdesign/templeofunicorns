@@ -34,6 +34,23 @@ function isDate(value) {
   return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().startsWith(value);
 }
 
+const isText = (value) => typeof value === 'string' && value !== '';
+
+function validateSizeGuide(label, guide) {
+  const bad = (why) => fail('bad-size-guide', `${label}: sizeGuide ${why}.`);
+  if (typeof guide !== 'object' || Array.isArray(guide)) bad('must be an object with "columns" and "rows"');
+  const { columns, rows } = guide;
+  if (!Array.isArray(columns) || columns.length === 0 || !columns.every(isText)) {
+    bad('needs a non-empty "columns" list of non-empty strings');
+  }
+  if (!Array.isArray(rows) || rows.length === 0) bad('needs a non-empty "rows" list');
+  for (const row of rows) {
+    if (!Array.isArray(row) || row.length !== columns.length || !row.every(isText)) {
+      bad(`every row needs exactly ${columns.length} non-empty strings`);
+    }
+  }
+}
+
 function validate(designs) {
   if (!Array.isArray(designs)) fail('missing-field', 'The data file must contain a "designs" array.');
   const seen = new Set();
@@ -59,6 +76,7 @@ function validate(designs) {
     if (d.publishedAt !== undefined && d.publishedAt !== null && !isDate(d.publishedAt)) {
       fail('bad-published-at', `${label}: publishedAt must be YYYY-MM-DD or null.`);
     }
+    if (d.sizeGuide !== undefined && d.sizeGuide !== null) validateSizeGuide(label, d.sizeGuide);
     if (!Array.isArray(d.images) || d.images.length === 0) fail('no-images', `${label}: at least one image is required.`);
     for (const image of d.images) {
       if (typeof image?.alt !== 'string' || image.alt.trim() === '') {
@@ -106,6 +124,21 @@ function mailtoHref(title) {
   return `mailto:${RECIPIENT}?subject=${subject}&amp;body=${body}`;
 }
 
+function sizeGuideTable(guide) {
+  if (!guide) return '';
+  const head = guide.columns.map((c) => `<th scope="col">${esc(c)}</th>`).join('');
+  const rows = guide.rows
+    .map(([label, ...cells]) => `<tr><th scope="row">${esc(label)}</th>${cells.map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`)
+    .join('\n');
+  return `<div class="table-wrap"><table class="size-guide">
+<caption>Size guide</caption>
+<thead><tr>${head}</tr></thead>
+<tbody>
+${rows}
+</tbody>
+</table></div>`;
+}
+
 function detailPage(d) {
   const options = d.options?.length
     ? `<section aria-labelledby="options-heading">
@@ -124,6 +157,7 @@ ${d.options.map((o) => `<li>${esc(o.name)}\n<ul>\n${o.values.map((v) => `<li>${e
 ${d.images.map(imageTag).join('\n')}
 </div>
 ${d.description.map((p) => `<p>${esc(p)}</p>`).join('\n')}
+${sizeGuideTable(d.sizeGuide)}
 ${options}
 ${ask}
 </article>`,
