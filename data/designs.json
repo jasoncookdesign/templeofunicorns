@@ -11,16 +11,7 @@
         "• Pre-shrunk fabric for a consistent fit",
         "• Built to last with side-seamed construction and shoulder-to-shoulder taping",
         "• Made in America using an ecologically-responsible manufacturing process.",
-        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)"
       ],
       "collections": [
         "Men",
@@ -125,12 +116,7 @@
         "• Structured five-panel design with a high-profile fit.",
         "• Green undervisor adds a subtle pop of color.",
         "• Sewn eyelets for breathability.",
-        "• Adjustable snapback closure for a perfect fit (21.63″–23.63″ / 55 cm–60 cm head circumference).",
-        "Size guide",
-        "---------- ------------ ------------ ------------ ------------",
-        "A (inches)   B (inches)   C (inches)   D (inches)",
-        "One size   18 ⅞-23 ⅝    4 ½          2 ⅜          7 ⅛",
-        "---------- ------------ ------------ ------------ ------------"
+        "• Adjustable snapback closure for a perfect fit (21.63″–23.63″ / 55 cm–60 cm head circumference)."
       ],
       "collections": [
         "Men",
@@ -233,12 +219,7 @@
         "• 2 sewn eyelets and 6 rows of visible stitching on the visor.",
         "• Adjustable plastic snap closure for a customizable fit.",
         "• Matching fabric under-visor for a cohesive design.",
-        "• One size fits most.",
-        "Size guide",
-        "---------- ------------ ------------ ------------ ------------",
-        "A (inches)   B (inches)   C (inches)   D (inches)",
-        "One size   22 -24 ⅜     5 ½          2 ¾          9",
-        "---------- ------------ ------------ ------------ ------------"
+        "• One size fits most."
       ],
       "collections": [
         "Men",
@@ -287,16 +268,7 @@
         "• Fabric weight: 8.5 oz./yd.² (288.2 g/m²).",
         "• Front pouch pocket for convenience.",
         "• Matching flat drawstrings and a 3-panel hood for a sleek look.",
-        "• Tear-away tag for added comfort.",
-        "Size guide",
-        "----- ---------------------- -----------------",
-        "CHEST WIDTH (inches)   LENGTH (inches)",
-        "S     20                     27",
-        "M     21                     28",
-        "L     23                     29",
-        "XL    25                     30",
-        "2XL   26 ½                   31",
-        "----- ---------------------- -----------------"
+        "• Tear-away tag for added comfort."
       ],
       "collections": [
         "Men",
@@ -330,6 +302,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest Width (inches)",
+          "Length (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "20",
+            "27"
+          ],
+          [
+            "M",
+            "21",
+            "28"
+          ],
+          [
+            "L",
+            "23",
+            "29"
+          ],
+          [
+            "XL",
+            "25",
+            "30"
+          ],
+          [
+            "2XL",
+            "26 ½",
+            "31"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/temple-of-unicorns-unisex-embroidered-hoodie/01.webp",
@@ -428,16 +434,7 @@
         "• Relaxed fit with a cropped length for a modern, flattering silhouette.",
         "• Ribbed crew neck and dropped shoulders for a laid-back style.",
         "• Side-seamed construction and double-needle hems for long-lasting quality.",
-        "• Preshrunk to maintain its fit wash after wash.",
-        "Size guide",
-        "---- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS   17 ⅜              18 ¾",
-        "S    17 ¾              19 ¾",
-        "M    18 ¼              20 ⅝",
-        "L    18 ¾              21 ⅝",
-        "XL   19 ⅛              22 ⅝",
-        "---- ----------------- ----------------"
+        "• Preshrunk to maintain its fit wash after wash."
       ],
       "collections": [
         "Women",
@@ -467,6 +464,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "17 ⅜",
+            "18 ¾"
+          ],
+          [
+            "S",
+            "17 ¾",
+            "19 ¾"
+          ],
+          [
+            "M",
+            "18 ¼",
+            "20 ⅝"
+          ],
+          [
+            "L",
+            "18 ¾",
+            "21 ⅝"
+          ],
+          [
+            "XL",
+            "19 ⅛",
+            "22 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/speaker-bunny-womens-crop-top-tee/01.webp",
@@ -505,16 +536,7 @@
         "• Relaxed fit with a cropped length for a modern, flattering silhouette.",
         "• Ribbed crew neck and dropped shoulders for a laid-back style.",
         "• Side-seamed construction and double-needle hems for long-lasting quality.",
-        "• Preshrunk to maintain its fit wash after wash.",
-        "Size guide",
-        "---- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS   17 ⅜              18 ¾",
-        "S    17 ¾              19 ¾",
-        "M    18 ¼              20 ⅝",
-        "L    18 ¾              21 ⅝",
-        "XL   19 ⅛              22 ⅝",
-        "---- ----------------- ----------------"
+        "• Preshrunk to maintain its fit wash after wash."
       ],
       "collections": [
         "Women",
@@ -542,6 +564,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "17 ⅜",
+            "18 ¾"
+          ],
+          [
+            "S",
+            "17 ¾",
+            "19 ¾"
+          ],
+          [
+            "M",
+            "18 ¼",
+            "20 ⅝"
+          ],
+          [
+            "L",
+            "18 ¾",
+            "21 ⅝"
+          ],
+          [
+            "XL",
+            "19 ⅛",
+            "22 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/women-s-crop-top/01.webp",
@@ -584,16 +640,7 @@
         "• Pre-shrunk fabric for a consistent fit",
         "• Built to last with side-seamed construction and shoulder-to-shoulder taping",
         "• Made in America using an ecologically-responsible manufacturing process.",
-        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)"
       ],
       "collections": [
         "Men",
@@ -698,17 +745,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "XS    27                16 ½             31-34",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -744,6 +781,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "27",
+            "16 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/know-your-roots-midi-classic-tee/01.webp",
@@ -842,22 +925,7 @@
         "• Soft, stretchy fabric with a mild-compression feel.",
         "• High-waisted, flattering cut for a secure fit.",
         "• A pocket on each side for your essentials.",
-        "• Triangle gusset for added flexibility.",
-        "Size guide",
-        "----------------------- ----------------------- -----------------------",
-        "WAIST (inches)          HIPS (inches)",
-        "2XS                     23 ⅝                    33 ⅞",
-        "XS                      25 ¼                    35",
-        "⅜",
-        "S                       26 ¾                    37",
-        "M                       28 ⅜                    38 ⅝",
-        "L                       31 ½                    41",
-        "¾",
-        "XL                      34                      44",
-        "⅝                       ⅞",
-        "2XL                     37                      48",
-        "¾",
-        "----------------------- ----------------------- -----------------------"
+        "• Triangle gusset for added flexibility."
       ],
       "collections": [
         "Women",
@@ -878,6 +946,50 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "2XS",
+            "23 ⅝",
+            "33 ⅞"
+          ],
+          [
+            "XS",
+            "25 ¼",
+            "35 ⅜"
+          ],
+          [
+            "S",
+            "26 ¾",
+            "37"
+          ],
+          [
+            "M",
+            "28 ⅜",
+            "38 ⅝"
+          ],
+          [
+            "L",
+            "31 ½",
+            "41 ¾"
+          ],
+          [
+            "XL",
+            "34 ⅝",
+            "44 ⅞"
+          ],
+          [
+            "2XL",
+            "37 ¾",
+            "48"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/taste-the-rainbow-leggings/01.webp",
@@ -915,16 +1027,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Pre-shrunk fabric for reliable fit and feel.",
         "• Side-seamed construction for durability.",
-        "• Shoulder-to-shoulder taping for added structure.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for added structure."
       ],
       "collections": [
         "Men",
@@ -1004,18 +1107,7 @@
         "• UPF50+ protection for sunlit festival days.",
         "• Customizable side panels for a unique fit.",
         "• Available in an extended size range: 2XS–2XL.",
-        "• Certified sustainable: OEKO-TEX 100 and Global Recycled Standard (GRS).",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "2XS   34 ⅝             28 ¼             35 ⅜",
-        "XS    36 ¼             29 ⅞             37.0",
-        "S     37 ¾             31 ½             38 ⅝",
-        "M     39 ⅜             33 ⅛             40 ¼",
-        "L     42 ½             36 ¼             43 ¼",
-        "XL    45 ¾             39 ⅜             46 ½",
-        "2XL   48 ¾             42 ½             49 ⅝",
-        "----- ---------------- ---------------- ---------------"
+        "• Certified sustainable: OEKO-TEX 100 and Global Recycled Standard (GRS)."
       ],
       "collections": [
         "Men",
@@ -1037,6 +1129,58 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "2XS",
+            "34 ⅝",
+            "28 ¼",
+            "35 ⅜"
+          ],
+          [
+            "XS",
+            "36 ¼",
+            "29 ⅞",
+            "37.0"
+          ],
+          [
+            "S",
+            "37 ¾",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "39 ⅜",
+            "33 ⅛",
+            "40 ¼"
+          ],
+          [
+            "L",
+            "42 ½",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "45 ¾",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "48 ¾",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/bring-out-the-lasers-aop-rave-jersey/01.webp",
@@ -1070,16 +1214,7 @@
         "• Fabric weight: 6.5 oz./yd.² (220 g/m²) for a heavyweight feel.",
         "• High moisture absorbency to keep you comfortable in any season.",
         "• Unisex style with an oversized fit and drop shoulders for a relaxed look.",
-        "• Ribbed collar for added durability and structure.",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "S     29                24",
-        "M     30                26",
-        "L     31                28",
-        "XL    32                30",
-        "2XL   33                32",
-        "----- ----------------- ----------------"
+        "• Ribbed collar for added durability and structure."
       ],
       "collections": [
         "Men",
@@ -1140,16 +1275,7 @@
         "• 1x1 athletic rib-knit collar with spandex for added comfort and stretch.",
         "• Air-jet spun yarn for reduced pilling and a smooth touch.",
         "• Double-needle stitching for durability at the collar, shoulders, armholes, cuffs, and hem.",
-        "• Quarter-turned to avoid a crease down the middle.",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "S     27                20",
-        "M     28                22",
-        "L     29                24",
-        "XL    30                26",
-        "2XL   31                28",
-        "----- ----------------- ----------------"
+        "• Quarter-turned to avoid a crease down the middle."
       ],
       "collections": [
         "Men",
@@ -1182,6 +1308,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "27",
+            "20"
+          ],
+          [
+            "M",
+            "28",
+            "22"
+          ],
+          [
+            "L",
+            "29",
+            "24"
+          ],
+          [
+            "XL",
+            "30",
+            "26"
+          ],
+          [
+            "2XL",
+            "31",
+            "28"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/wub-wub-wub-unisex-sweatshirt/01.webp",
@@ -1273,16 +1433,7 @@
         "• 1x1 athletic rib-knit collar with spandex for added comfort and stretch.",
         "• Air-jet spun yarn for reduced pilling and a smooth touch.",
         "• Double-needle stitching for durability at the collar, shoulders, armholes, cuffs, and hem.",
-        "• Quarter-turned to avoid a crease down the middle.",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "S     27                20",
-        "M     28                22",
-        "L     29                24",
-        "XL    30                26",
-        "2XL   31                28",
-        "----- ----------------- ----------------"
+        "• Quarter-turned to avoid a crease down the middle."
       ],
       "collections": [
         "Men",
@@ -1302,6 +1453,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "27",
+            "20"
+          ],
+          [
+            "M",
+            "28",
+            "22"
+          ],
+          [
+            "L",
+            "29",
+            "24"
+          ],
+          [
+            "XL",
+            "30",
+            "26"
+          ],
+          [
+            "2XL",
+            "31",
+            "28"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/limited-edition-wub-wub-wub-midnight-unisex-sweatshirt/01.webp",
@@ -1331,17 +1516,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Pre-shrunk fabric for lasting fit and comfort.",
         "• Side-seamed construction for durability and structure.",
-        "• Shoulder-to-shoulder taping for added polish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "XS    27                16 ½             31-34",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for added polish."
       ],
       "collections": [
         "Men",
@@ -1372,6 +1547,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "27",
+            "16 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spaced-out-second-summer-of-love-t-shirt/01.webp",
@@ -1433,17 +1654,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Pre-shrunk for consistent fit and feel.",
         "• Side-seamed construction for durability and style.",
-        "• Shoulder-to-shoulder taping for added comfort.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "XS    27                16 ½             31-34",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for added comfort."
       ],
       "collections": [
         "Men",
@@ -1474,6 +1685,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "27",
+            "16 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/do-you-know-where-your-children-are-retro-tee/01.webp",
@@ -1533,18 +1790,7 @@
         "• Relaxed unisex fit for ultimate comfort and style.",
         "• Elastic waistband with a white drawstring for adjustability.",
         "• Two side pockets for your essentials.",
-        "• OEKO-TEX 100 standard certified fabric for sustainability and quality.",
-        "Size guide",
-        "----- ---------------- ---------------",
-        "WAIST (inches)   HIPS (inches)",
-        "2XS   28 ⅜             35 ⅜",
-        "XS    29 ⅞             37",
-        "S     31 ½             38 ⅝",
-        "M     33 ⅛             40 ⅛",
-        "L     36 ¼             43 ¼",
-        "XL    39 ⅜             46 ½",
-        "2XL   42 ½             49 ⅝",
-        "----- ---------------- ---------------"
+        "• OEKO-TEX 100 standard certified fabric for sustainability and quality."
       ],
       "collections": [
         "Men",
@@ -1566,6 +1812,50 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "2XS",
+            "28 ⅜",
+            "35 ⅜"
+          ],
+          [
+            "XS",
+            "29 ⅞",
+            "37"
+          ],
+          [
+            "S",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "33 ⅛",
+            "40 ⅛"
+          ],
+          [
+            "L",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/taste-the-rainbow-wide-leg-pants/01.webp",
@@ -1596,16 +1886,7 @@
         "• Relaxed fit for a flattering silhouette.",
         "• V-neck design for a polished yet casual look.",
         "• Side-seamed construction for durability and shape.",
-        "• Tear-away label for added comfort.",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   CHEST (inches)",
-        "S     25                34 - 37",
-        "M     25 ¼              38 - 41",
-        "L     26 ½              42 - 45",
-        "XL    27 ½              46 - 49",
-        "2XL   28                50 - 53",
-        "----- ----------------- ----------------"
+        "• Tear-away label for added comfort."
       ],
       "collections": [
         "Women",
@@ -1634,6 +1915,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "25",
+            "34 - 37"
+          ],
+          [
+            "M",
+            "25 ¼",
+            "38 - 41"
+          ],
+          [
+            "L",
+            "26 ½",
+            "42 - 45"
+          ],
+          [
+            "XL",
+            "27 ½",
+            "46 - 49"
+          ],
+          [
+            "2XL",
+            "28",
+            "50 - 53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/boots-cats-relaxed-v-neck-shirt/01.webp",
@@ -1687,17 +2002,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "XS    27                16 ½             31-34",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -1731,6 +2036,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "27",
+            "16 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/know-your-roots-turntable-tee/01.webp",
@@ -1810,16 +2161,7 @@
         "• 1x1 athletic rib-knit collar with spandex for added comfort and stretch.",
         "• Air-jet spun yarn for reduced pilling and a smooth touch.",
         "• Double-needle stitching for durability at the collar, shoulders, armholes, cuffs, and hem.",
-        "• Quarter-turned design to avoid creases down the middle.",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "S     27                20",
-        "M     28                22",
-        "L     29                24",
-        "XL    30                26",
-        "2XL   31                28",
-        "----- ----------------- ----------------"
+        "• Quarter-turned design to avoid creases down the middle."
       ],
       "collections": [
         "Men",
@@ -1848,6 +2190,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "27",
+            "20"
+          ],
+          [
+            "M",
+            "28",
+            "22"
+          ],
+          [
+            "L",
+            "29",
+            "24"
+          ],
+          [
+            "XL",
+            "30",
+            "26"
+          ],
+          [
+            "2XL",
+            "31",
+            "28"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/hard-beats-university-unisex-sweatshirt/01.webp",
@@ -1910,17 +2286,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "XS    27                16 ½             31-34",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -1953,6 +2319,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "27",
+            "16 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/alien-subwoofer-technology-tee/01.webp",
@@ -2023,16 +2435,7 @@
         "• Semi-contoured silhouette with side seams for a flattering fit.",
         "• Shoulder-to-shoulder taping for durability.",
         "• Double-needle stitched sleeves and bottom hem for lasting quality.",
-        "• Tear-away label for comfort.",
-        "Size guide",
-        "----- ---------------- -----------------",
-        "WIDTH (inches)   LENGTH (inches)",
-        "S     17 ¼             25 ½",
-        "M     19 ¼             26",
-        "L     21 ¼             27",
-        "XL    23 ¼             28",
-        "2XL   25 ¼             28 ½",
-        "----- ---------------- -----------------"
+        "• Tear-away label for comfort."
       ],
       "collections": [
         "Women",
@@ -2108,16 +2511,7 @@
         "• 100% cotton, airlume combed and ring-spun for sustainable comfort",
         "• Pre-shrunk fabric for a consistent fit",
         "• Built to last with side-seamed construction and shoulder-to-shoulder taping",
-        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Fabric weight: 4.2 oz./yd.² (142 g/m²)"
       ],
       "collections": [
         "Men",
@@ -2146,6 +2540,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/magic-unicorn-unisex-tee/01.webp",
@@ -2196,16 +2630,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -2225,6 +2650,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dark-side-of-plur-unisex-tee/01.webp",
@@ -2259,16 +2724,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ---------------- -----------------",
-        "WIDTH (inches)   LENGTH (inches)",
-        "S     17 ¼             25 ½",
-        "M     19 ¼             26",
-        "L     21 ¼             27",
-        "XL    23 ¼             28",
-        "2XL   25 ¼             28 ½",
-        "----- ---------------- -----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Women",
@@ -2324,17 +2780,7 @@
         "• Featherlight fabric weight: 2.95 oz./yd.² (100 g/m²).",
         "• Breathable, moisture-wicking material to keep you cool on the dancefloor.",
         "• Oversized fit for effortless movement and style.",
-        "• UPF50+ protection for when the beats take you outside.",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "XS    36 ¼             29 ⅞             37.0",
-        "S     37 ¾             31 ½             38 ⅝",
-        "M     39 ⅜             33 ⅛             40 ¼",
-        "L     42 ½             36 ¼             43 ¼",
-        "XL    45 ¾             39 ⅜             46 ½",
-        "2XL   48 ¾             42 ½             49 ⅝",
-        "----- ---------------- ---------------- ---------------"
+        "• UPF50+ protection for when the beats take you outside."
       ],
       "collections": [
         "Men",
@@ -2355,6 +2801,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼",
+            "29 ⅞",
+            "37.0"
+          ],
+          [
+            "S",
+            "37 ¾",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "39 ⅜",
+            "33 ⅛",
+            "40 ¼"
+          ],
+          [
+            "L",
+            "42 ½",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "45 ¾",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "48 ¾",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/rave-cats-relaxed-fit-button-shirt/01.webp",
@@ -2384,17 +2876,7 @@
         "• Featherlight fabric weight: 2.95 oz./yd.² (100 g/m²).",
         "• Breathable, moisture-wicking material to keep you cool on the dancefloor.",
         "• Oversized fit for effortless movement and style.",
-        "• UPF50+ protection for when the beats take you outside.",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "XS    36 ¼             29 ⅞             37.0",
-        "S     37 ¾             31 ½             38 ⅝",
-        "M     39 ⅜             33 ⅛             40 ¼",
-        "L     42 ½             36 ¼             43 ¼",
-        "XL    45 ¾             39 ⅜             46 ½",
-        "2XL   48 ¾             42 ½             49 ⅝",
-        "----- ---------------- ---------------- ---------------"
+        "• UPF50+ protection for when the beats take you outside."
       ],
       "collections": [
         "Men",
@@ -2415,6 +2897,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼",
+            "29 ⅞",
+            "37.0"
+          ],
+          [
+            "S",
+            "37 ¾",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "39 ⅜",
+            "33 ⅛",
+            "40 ¼"
+          ],
+          [
+            "L",
+            "42 ½",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "45 ¾",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "48 ¾",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/rave-cats-relaxed-fit-button-shirt-1/01.webp",
@@ -2506,16 +3034,7 @@
         "• Fabric weight: 4.3 oz./yd² (145.8 g/m²).",
         "• Shoulder-to-shoulder taping for durability.",
         "• Double-needle stitched sleeves and bottom hem for lasting quality.",
-        "• Tear-away label for comfort.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Tear-away label for comfort."
       ],
       "collections": [
         "Men",
@@ -2547,6 +3066,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/destroy-the-dancefloor-unisex-tee/01.webp",
@@ -2637,16 +3196,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for a better fit.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -2679,6 +3229,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/deal-with-it-cat-unisex-tee/01.webp",
@@ -2757,16 +3347,7 @@
         "• Classic semi-contoured silhouette with side seam",
         "• Seamed collarette, double-needle stitched sleeves and bottom hem for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ---------------- -----------------",
-        "WIDTH (inches)   LENGTH (inches)",
-        "S     17 ¼             25 ½",
-        "M     19 ¼             26",
-        "L     21 ¼             27",
-        "XL    23 ¼             28",
-        "2XL   25 ¼             28 ½",
-        "----- ---------------- -----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Women",
@@ -2872,16 +3453,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -2913,6 +3485,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/bpm-athletics-unisex-tee/01.webp",
@@ -2967,16 +3579,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for a better fit.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -3010,6 +3613,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/cosmic-keyboard-cat-unisex-tee/01.webp",
@@ -3086,16 +3729,7 @@
         "• 52% combed ring-spun cotton, 48% polyester",
         "• Fabric weight: 3.6 oz/yd² (122 g/m²)",
         "• Fitted cut just above the belly button",
-        "• Side-seamed construction",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Side-seamed construction"
       ],
       "collections": [
         "Men",
@@ -3127,6 +3761,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/disco-kitten-unisex-tee/01.webp",
@@ -3197,16 +3871,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for a better fit.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -3241,6 +3906,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dj-kitten-unisex-tee/01.webp",
@@ -3321,13 +4026,7 @@
         "• 52% combed ring-spun cotton, 48% polyester",
         "• Fabric weight: 3.6 oz/yd² (122 g/m²)",
         "• Slim fit cut just above the belly button",
-        "• Side-seamed construction",
-        "Size guide",
-        "------- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS/SM   16 ½              15 ⅝",
-        "M/L     17 ½              17 ⅛",
-        "------- ----------------- ----------------"
+        "• Side-seamed construction"
       ],
       "collections": [
         "Women",
@@ -3397,13 +4096,7 @@
         "• 52% combed ring-spun cotton, 48% polyester",
         "• Fabric weight: 3.6 oz/yd² (122 g/m²)",
         "• Fitted cut just above the belly button",
-        "• Side-seamed construction",
-        "Size guide",
-        "------- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS/SM   16 ½              15 ⅝",
-        "M/L     17 ½              17 ⅛",
-        "------- ----------------- ----------------"
+        "• Side-seamed construction"
       ],
       "collections": [
         "Women",
@@ -3472,13 +4165,7 @@
         "• 52% combed ring-spun cotton, 48% polyester",
         "• Fabric weight: 3.6 oz/yd² (122 g/m²)",
         "• Fitted cut just above the belly button",
-        "• Side-seamed construction",
-        "Size guide",
-        "------- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS/SM   16 ½              15 ⅝",
-        "M/L     17 ½              17 ⅛",
-        "------- ----------------- ----------------"
+        "• Side-seamed construction"
       ],
       "collections": [
         "Women",
@@ -3548,16 +4235,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -3589,6 +4267,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/love-hard-crest-unisex-tee/01.webp",
@@ -3670,17 +4388,7 @@
         "• Fabric weight: 4.2 oz./yd.² (142 g/m²).",
         "• Relaxed fit with wide, low-cut armholes.",
         "• Side-seamed construction for a better fit.",
-        "• Tear-away label for added comfort.",
-        "Size guide",
-        "----- ------------ ------------",
-        "A (inches)   B (inches)",
-        "XS    12 ¼         12 ¼",
-        "S     12 ⅝         14",
-        "M     13           14 ¾",
-        "L     13 ⅜         15 ¾",
-        "XL    13 ¾         16 ¾",
-        "2XL   14 ⅛         17 ¾",
-        "----- ------------ ------------"
+        "• Tear-away label for added comfort."
       ],
       "collections": [
         "Women",
@@ -3709,6 +4417,45 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "A (inches)",
+          "B (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "12 ¼",
+            "12 ¼"
+          ],
+          [
+            "S",
+            "12 ⅝",
+            "14"
+          ],
+          [
+            "M",
+            "13",
+            "14 ¾"
+          ],
+          [
+            "L",
+            "13 ⅜",
+            "15 ¾"
+          ],
+          [
+            "XL",
+            "13 ¾",
+            "16 ¾"
+          ],
+          [
+            "2XL",
+            "14 ⅛",
+            "17 ¾"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/love-hard-crest-micro-rib-tank/01.webp",
@@ -3767,16 +4514,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -3809,6 +4547,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dance-battle-unisex-tee/01.webp",
@@ -3884,17 +4662,7 @@
         "• Moisture-wicking material",
         "• Regular fit",
         "• UPF50+ protection",
-        "• OEKO-TEX 100 standard and Global Recycled Standard (GRS) certified fabric",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "XS    36 ¼             29 ⅞             37.0",
-        "S     37 ¾             31 ½             38 ⅝",
-        "M     39 ⅜             33 ⅛             40 ¼",
-        "L     42 ½             36 ¼             43 ¼",
-        "XL    45 ¾             39 ⅜             46 ½",
-        "2XL   48 ¾             42 ½             49 ⅝",
-        "----- ---------------- ---------------- ---------------"
+        "• OEKO-TEX 100 standard and Global Recycled Standard (GRS) certified fabric"
       ],
       "collections": [
         "Men",
@@ -3915,6 +4683,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼",
+            "29 ⅞",
+            "37.0"
+          ],
+          [
+            "S",
+            "37 ¾",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "39 ⅜",
+            "33 ⅛",
+            "40 ¼"
+          ],
+          [
+            "L",
+            "42 ½",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "45 ¾",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "48 ¾",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-unisex-rave-jersey/01.webp",
@@ -3952,17 +4766,7 @@
         "• Fabric weight: 7.08 oz./yd.² (240 g/m²)",
         "• Premium knit mid-weight jersey",
         "• Smooth, comfortable 2-way stretch material stretches and recovers on the cross and lengthwise grains",
-        "• OEKO-TEX 100 standard certified fabric",
-        "Size guide",
-        "----- ----------------",
-        "CHEST (inches)",
-        "XS    36 ¼",
-        "S     37 ¾",
-        "M     39 ⅜",
-        "L     42 ½",
-        "XL    45 ⅝",
-        "2XL   48 ⅞",
-        "----- ----------------"
+        "• OEKO-TEX 100 standard certified fabric"
       ],
       "collections": [
         "Men",
@@ -3982,6 +4786,38 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼"
+          ],
+          [
+            "S",
+            "37 ¾"
+          ],
+          [
+            "M",
+            "39 ⅜"
+          ],
+          [
+            "L",
+            "42 ½"
+          ],
+          [
+            "XL",
+            "45 ⅝"
+          ],
+          [
+            "2XL",
+            "48 ⅞"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-tank-top/01.webp",
@@ -4014,17 +4850,7 @@
         "• Relaxed fit, sits at the hip",
         "• Elastic waistband, drawcord, and ankle cuffs",
         "• Zippered pocket closure keeps your stuff secure",
-        "• Tear-away care label for comfort",
-        "Size guide",
-        "----- ---------------- ------------------------",
-        "WAIST (inches)   INSEAM LENGTH (inches)",
-        "XS    25               28",
-        "S     27               28 ¼",
-        "M     29 ½             28 ¾",
-        "L     32               29 ¼",
-        "XL    35               29 ½",
-        "2XL   36 ½             30",
-        "----- ---------------- ------------------------"
+        "• Tear-away care label for comfort"
       ],
       "collections": [
         "Men",
@@ -4045,6 +4871,45 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Waist (inches)",
+          "Inseam Length (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "25",
+            "28"
+          ],
+          [
+            "S",
+            "27",
+            "28 ¼"
+          ],
+          [
+            "M",
+            "29 ½",
+            "28 ¾"
+          ],
+          [
+            "L",
+            "32",
+            "29 ¼"
+          ],
+          [
+            "XL",
+            "35",
+            "29 ½"
+          ],
+          [
+            "2XL",
+            "36 ½",
+            "30"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-unisex-track-pants/01.webp",
@@ -4078,28 +4943,7 @@
         "• Ethylene-vinyl acetate (EVA) rubber outsole",
         "• Faux leather toe cap",
         "• Removable insole",
-        "• Padded collar, lace-up front",
-        "Size guide",
-        "------ -------- ------ -------- ---------------------- ------- -------------------------",
-        "US MEN   UK     EUROPE   FOOT LENGTH (inches)   JAPAN   OUTSOLE LENGTH (inches)",
-        "5      5        4      37.5     9 ⅛                    23      10 ¼",
-        "5.5    5.5      4.5    38       9 ¼                    23.5    10 ¼",
-        "6      6        5      38.5     9 ½                    24      10 ⅝",
-        "6.5    6.5      5.5    39       9 ⅝                    24.5    10 ⅝",
-        "7      7        6      40       9 ¾                    25      10 ¾",
-        "7.5    7.5      6.5    40.5     10.00                  25.5    11 ⅛",
-        "8      8        7      41       10 ⅛                   26      11 ⅛",
-        "8.5    8.5      7.5    42       10 ¼                   26.5    11 ⅜",
-        "9      9        8      42.5     10 ½                   27      11 ⅝",
-        "9.5    9.5      8.5    43       10 ⅝                   27.5    11 ⅝",
-        "10     10       9      44       10 ¾                   28      12.00",
-        "10.5   10.5     9.5    44.5     11.00                  28.5    12 ⅛",
-        "11     11       10     45       11 ¼                   29      12 ⅛",
-        "11.5   11.5     10.5   46       11 ½                   29.5    12 ½",
-        "12     12       11     46.5     11 ¾                   30      12 ¾",
-        "12.5   12.5     11.5   47       11 ⅞                   30.5    12 ¾",
-        "13     13       12     47.5     12                     31      12 ¾",
-        "------ -------- ------ -------- ---------------------- ------- -------------------------"
+        "• Padded collar, lace-up front"
       ],
       "collections": [
         "Men",
@@ -4130,6 +4974,172 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "US Men",
+          "UK",
+          "Europe",
+          "Foot Length (inches)",
+          "Japan",
+          "Outsole Length (inches)"
+        ],
+        "rows": [
+          [
+            "5",
+            "5",
+            "4",
+            "37.5",
+            "9 ⅛",
+            "23",
+            "10 ¼"
+          ],
+          [
+            "5.5",
+            "5.5",
+            "4.5",
+            "38",
+            "9 ¼",
+            "23.5",
+            "10 ¼"
+          ],
+          [
+            "6",
+            "6",
+            "5",
+            "38.5",
+            "9 ½",
+            "24",
+            "10 ⅝"
+          ],
+          [
+            "6.5",
+            "6.5",
+            "5.5",
+            "39",
+            "9 ⅝",
+            "24.5",
+            "10 ⅝"
+          ],
+          [
+            "7",
+            "7",
+            "6",
+            "40",
+            "9 ¾",
+            "25",
+            "10 ¾"
+          ],
+          [
+            "7.5",
+            "7.5",
+            "6.5",
+            "40.5",
+            "10.00",
+            "25.5",
+            "11 ⅛"
+          ],
+          [
+            "8",
+            "8",
+            "7",
+            "41",
+            "10 ⅛",
+            "26",
+            "11 ⅛"
+          ],
+          [
+            "8.5",
+            "8.5",
+            "7.5",
+            "42",
+            "10 ¼",
+            "26.5",
+            "11 ⅜"
+          ],
+          [
+            "9",
+            "9",
+            "8",
+            "42.5",
+            "10 ½",
+            "27",
+            "11 ⅝"
+          ],
+          [
+            "9.5",
+            "9.5",
+            "8.5",
+            "43",
+            "10 ⅝",
+            "27.5",
+            "11 ⅝"
+          ],
+          [
+            "10",
+            "10",
+            "9",
+            "44",
+            "10 ¾",
+            "28",
+            "12.00"
+          ],
+          [
+            "10.5",
+            "10.5",
+            "9.5",
+            "44.5",
+            "11.00",
+            "28.5",
+            "12 ⅛"
+          ],
+          [
+            "11",
+            "11",
+            "10",
+            "45",
+            "11 ¼",
+            "29",
+            "12 ⅛"
+          ],
+          [
+            "11.5",
+            "11.5",
+            "10.5",
+            "46",
+            "11 ½",
+            "29.5",
+            "12 ½"
+          ],
+          [
+            "12",
+            "12",
+            "11",
+            "46.5",
+            "11 ¾",
+            "30",
+            "12 ¾"
+          ],
+          [
+            "12.5",
+            "12.5",
+            "11.5",
+            "47",
+            "11 ⅞",
+            "30.5",
+            "12 ¾"
+          ],
+          [
+            "13",
+            "13",
+            "12",
+            "47.5",
+            "12",
+            "31",
+            "12 ¾"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-mens-high-top-canvas-shoes/01.webp",
@@ -4159,26 +5169,7 @@
         "• Ethylene-vinyl acetate (EVA) rubber outsole",
         "• Faux leather toe cap",
         "• Removable insole",
-        "• Padded collar, lace-up front",
-        "Size guide",
-        "------ ---------- ----- -------- ------- ---------------------- -------------------------",
-        "US WOMEN   UK    EUROPE   JAPAN   FOOT LENGTH (inches)   OUTSOLE LENGTH (inches)",
-        "5      5          2.5   35.5     22      8 ⅝                    9 ¾",
-        "5.5    5.5        3     36       22.5    8 ⅞                    9 ¾",
-        "6      6          3.5   36.5     23      9.00                   10.00",
-        "6.5    6.5        4     37.5     23.5    9 ⅛                    10 ¼",
-        "7      7          4.5   38       24      9 ¼                    10 ¼",
-        "7.5    7.5        5     38.5     24.5    9 ½                    10 ⅝",
-        "8      8          5.5   39       25      9 ⅝                    10 ⅝",
-        "8.5    8.5        6     40       25.5    9 ¾                    10 ¾",
-        "9      9          6.5   40.5     26      10.00                  11 ⅛",
-        "9.5    9.5        7     41       26.5    10 ⅛                   11 ⅛",
-        "10     10         7.5   42       27      10 ¼                   11 ⅜",
-        "10.5   10.5       8     42.5     27.5    10 ½                   11 ⅝",
-        "11     11         8.5   43       28      10 ⅝                   11 ⅝",
-        "11.5   11.5       9     44       28.5    10 ¾                   12.00",
-        "12     12         9.5   44.5     29      11.00                  12 ⅛",
-        "------ ---------- ----- -------- ------- ---------------------- -------------------------"
+        "• Padded collar, lace-up front"
       ],
       "collections": [
         "Women",
@@ -4207,6 +5198,154 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "US Women",
+          "UK",
+          "Europe",
+          "Japan",
+          "Foot Length (inches)",
+          "Outsole Length (inches)"
+        ],
+        "rows": [
+          [
+            "5",
+            "5",
+            "2.5",
+            "35.5",
+            "22",
+            "8 ⅝",
+            "9 ¾"
+          ],
+          [
+            "5.5",
+            "5.5",
+            "3",
+            "36",
+            "22.5",
+            "8 ⅞",
+            "9 ¾"
+          ],
+          [
+            "6",
+            "6",
+            "3.5",
+            "36.5",
+            "23",
+            "9.00",
+            "10.00"
+          ],
+          [
+            "6.5",
+            "6.5",
+            "4",
+            "37.5",
+            "23.5",
+            "9 ⅛",
+            "10 ¼"
+          ],
+          [
+            "7",
+            "7",
+            "4.5",
+            "38",
+            "24",
+            "9 ¼",
+            "10 ¼"
+          ],
+          [
+            "7.5",
+            "7.5",
+            "5",
+            "38.5",
+            "24.5",
+            "9 ½",
+            "10 ⅝"
+          ],
+          [
+            "8",
+            "8",
+            "5.5",
+            "39",
+            "25",
+            "9 ⅝",
+            "10 ⅝"
+          ],
+          [
+            "8.5",
+            "8.5",
+            "6",
+            "40",
+            "25.5",
+            "9 ¾",
+            "10 ¾"
+          ],
+          [
+            "9",
+            "9",
+            "6.5",
+            "40.5",
+            "26",
+            "10.00",
+            "11 ⅛"
+          ],
+          [
+            "9.5",
+            "9.5",
+            "7",
+            "41",
+            "26.5",
+            "10 ⅛",
+            "11 ⅛"
+          ],
+          [
+            "10",
+            "10",
+            "7.5",
+            "42",
+            "27",
+            "10 ¼",
+            "11 ⅜"
+          ],
+          [
+            "10.5",
+            "10.5",
+            "8",
+            "42.5",
+            "27.5",
+            "10 ½",
+            "11 ⅝"
+          ],
+          [
+            "11",
+            "11",
+            "8.5",
+            "43",
+            "28",
+            "10 ⅝",
+            "11 ⅝"
+          ],
+          [
+            "11.5",
+            "11.5",
+            "9",
+            "44",
+            "28.5",
+            "10 ¾",
+            "12.00"
+          ],
+          [
+            "12",
+            "12",
+            "9.5",
+            "44.5",
+            "29",
+            "11.00",
+            "12 ⅛"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-womens-high-top-canvas-shoes/01.webp",
@@ -4239,17 +5378,7 @@
         "• Regular fit",
         "• Baseball-style cut with button closure and dropped tail",
         "• Tear-away care label for comfort",
-        "• OEKO-TEX 100 standard and Recycled Claim Standard (RCS) certified fabric",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "XS    36 ¼             29 ⅞             37",
-        "S     37 ¾             31 ½             38 ⅝",
-        "M     39 ⅜             33 ⅛             40 ⅛",
-        "L     42 ½             36 ¼             43 ¼",
-        "XL    45 ⅝             39 ⅜             46 ½",
-        "2XL   48 ⅞             42 ½             49 ⅝",
-        "----- ---------------- ---------------- ---------------"
+        "• OEKO-TEX 100 standard and Recycled Claim Standard (RCS) certified fabric"
       ],
       "collections": [
         "Men",
@@ -4271,6 +5400,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼",
+            "29 ⅞",
+            "37"
+          ],
+          [
+            "S",
+            "37 ¾",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "39 ⅜",
+            "33 ⅛",
+            "40 ⅛"
+          ],
+          [
+            "L",
+            "42 ½",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "45 ⅝",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "48 ⅞",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/tou-waveforms-rave-jersey/01.webp",
@@ -4301,16 +5476,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -4342,6 +5508,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dj-pinup-unisex-tee/01.webp",
@@ -4408,16 +5614,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -4446,6 +5643,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/disco-nap-unisex-tee/01.webp",
@@ -4504,17 +5741,7 @@
         "• Premium knit mid-weight jersey",
         "• Smooth, comfortable 2-way stretch fabric that stretches and recovers on the cross and lengthwise grains",
         "• Regular fit",
-        "• OEKO-TEX 100 standard certified fabric",
-        "Size guide",
-        "----- ----------------",
-        "CHEST (inches)",
-        "XS    36 ¼",
-        "S     37 ¾",
-        "M     39 ⅜",
-        "L     42 ½",
-        "XL    45 ⅝",
-        "2XL   48 ⅞",
-        "----- ----------------"
+        "• OEKO-TEX 100 standard certified fabric"
       ],
       "collections": [
         "Men",
@@ -4536,6 +5763,38 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼"
+          ],
+          [
+            "S",
+            "37 ¾"
+          ],
+          [
+            "M",
+            "39 ⅜"
+          ],
+          [
+            "L",
+            "42 ½"
+          ],
+          [
+            "XL",
+            "45 ⅝"
+          ],
+          [
+            "2XL",
+            "48 ⅞"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dj-magician-relaxed-tee/01.webp",
@@ -4565,17 +5824,7 @@
         "• Fabric weight: 3.8 oz/yd² (128.84 g/m²)",
         "• Regular fit",
         "• Side-seamed construction",
-        "• Crossover “V” at the neckline",
-        "Size guide",
-        "----- ----------------- ----------------",
-        "LENGTH (inches)   CHEST (inches)",
-        "XS    28 ½              31-34",
-        "S     29 ½              34-37",
-        "M     30 ½              38-41",
-        "L     31 ½              42-45",
-        "XL    32 ½              46-49",
-        "2XL   33 ½              50-53",
-        "----- ----------------- ----------------"
+        "• Crossover “V” at the neckline"
       ],
       "collections": [
         "Men",
@@ -4604,6 +5853,45 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "28 ½",
+            "31-34"
+          ],
+          [
+            "S",
+            "29 ½",
+            "34-37"
+          ],
+          [
+            "M",
+            "30 ½",
+            "38-41"
+          ],
+          [
+            "L",
+            "31 ½",
+            "42-45"
+          ],
+          [
+            "XL",
+            "32 ½",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "33 ½",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dj-magician-long-sleeve-hooded-tee/01.webp",
@@ -4648,17 +5936,7 @@
         "• 93% polyester, 7% spandex for a smooth, cotton-touch feel.",
         "• Premium knit mid-weight jersey: 7.08 oz./yd.² (240 g/m²).",
         "• Regular fit with 2-way stretch for comfort and flexibility.",
-        "• Eco-conscious fabric: OEKO-TEX 100 standard certified.",
-        "Size guide",
-        "----- ----------------",
-        "CHEST (inches)",
-        "XS    31 ⅛",
-        "S     34 ¼",
-        "M     37 ⅜",
-        "L     42 ⅛",
-        "XL    46 ⅞",
-        "2XL   51 ⅝",
-        "----- ----------------"
+        "• Eco-conscious fabric: OEKO-TEX 100 standard certified."
       ],
       "collections": [
         "Featured",
@@ -4677,6 +5955,38 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "31 ⅛"
+          ],
+          [
+            "S",
+            "34 ¼"
+          ],
+          [
+            "M",
+            "37 ⅜"
+          ],
+          [
+            "L",
+            "42 ⅛"
+          ],
+          [
+            "XL",
+            "46 ⅞"
+          ],
+          [
+            "2XL",
+            "51 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/fresh-beets-unisex-tee/01.webp",
@@ -4706,17 +6016,7 @@
         "Fabric weight: 7.08 oz./yd.² (240 g/m²)",
         "• Premium knit mid-weight jersey",
         "• Smooth, comfortable 2-way stretch material stretches and recovers on the cross and lengthwise grains",
-        "• OEKO-TEX 100 standard certified fabric",
-        "Size guide",
-        "----- ----------------",
-        "CHEST (inches)",
-        "XS    36 ¼",
-        "S     37 ¾",
-        "M     39 ⅜",
-        "L     42 ½",
-        "XL    45 ⅝",
-        "2XL   48 ⅞",
-        "----- ----------------"
+        "• OEKO-TEX 100 standard certified fabric"
       ],
       "collections": [
         "Men",
@@ -4736,6 +6036,38 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "36 ¼"
+          ],
+          [
+            "S",
+            "37 ¾"
+          ],
+          [
+            "M",
+            "39 ⅜"
+          ],
+          [
+            "L",
+            "42 ½"
+          ],
+          [
+            "XL",
+            "45 ⅝"
+          ],
+          [
+            "2XL",
+            "48 ⅞"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/neon-anime-club-tank/01.webp",
@@ -4770,16 +6102,7 @@
         "• Pre-shrunk fabric for consistent sizing.",
         "• Side-seamed construction for durability.",
         "• Tear-away label for added comfort.",
-        "• Shoulder-to-shoulder taping for a polished finish.",
-        "Size guide",
-        "----- ----------------- ---------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)   CHEST (inches)",
-        "S     28                18               34-37",
-        "M     29                20               38-41",
-        "L     30                22               42-45",
-        "XL    31                24               46-49",
-        "2XL   32                26               50-53",
-        "----- ----------------- ---------------- ----------------"
+        "• Shoulder-to-shoulder taping for a polished finish."
       ],
       "collections": [
         "Men",
@@ -4806,6 +6129,46 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "28",
+            "18",
+            "34-37"
+          ],
+          [
+            "M",
+            "29",
+            "20",
+            "38-41"
+          ],
+          [
+            "L",
+            "30",
+            "22",
+            "42-45"
+          ],
+          [
+            "XL",
+            "31",
+            "24",
+            "46-49"
+          ],
+          [
+            "2XL",
+            "32",
+            "26",
+            "50-53"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/a-bit-more-underground-unisex-tee/01.webp",
@@ -4841,18 +6204,7 @@
         "• Short cropped cut with a wide, double-layered waistline band and raglan sleeves",
         "• Tear-away care label",
         "• Snug stretch fit – size up if you’re between sizes",
-        "• Fabric is OEKO-TEX 100 Standard and Global Recycled Standard (GRS) certified",
-        "Size guide",
-        "----- ---------------- ---------------- ---------------",
-        "CHEST (inches)   WAIST (inches)   HIPS (inches)",
-        "2XS   31 ½             23 ⅝             33 ⅞",
-        "XS    33 ⅛             25 ¼             35 ⅜",
-        "S     34 ⅝             26 ¾             37",
-        "M     36 ¼             28 ⅜             38 ⅝",
-        "L     39 ⅜             31 ½             41 ¾",
-        "XL    42 ½             34 ⅝             44 ⅞",
-        "2XL   45 ⅝             37 ¾             48",
-        "----- ---------------- ---------------- ---------------"
+        "• Fabric is OEKO-TEX 100 Standard and Global Recycled Standard (GRS) certified"
       ],
       "collections": [
         "Women",
@@ -4874,6 +6226,58 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Chest (inches)",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "2XS",
+            "31 ½",
+            "23 ⅝",
+            "33 ⅞"
+          ],
+          [
+            "XS",
+            "33 ⅛",
+            "25 ¼",
+            "35 ⅜"
+          ],
+          [
+            "S",
+            "34 ⅝",
+            "26 ¾",
+            "37"
+          ],
+          [
+            "M",
+            "36 ¼",
+            "28 ⅜",
+            "38 ⅝"
+          ],
+          [
+            "L",
+            "39 ⅜",
+            "31 ½",
+            "41 ¾"
+          ],
+          [
+            "XL",
+            "42 ½",
+            "34 ⅝",
+            "44 ⅞"
+          ],
+          [
+            "2XL",
+            "45 ⅝",
+            "37 ¾",
+            "48"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/a-bit-more-underground-long-sleeve-stretch-crop-top/01.webp",
@@ -4901,13 +6305,7 @@
         "• Interior pocket with printed label to keep valuables safe.",
         "• Dimensions: 6.5″ in height, 13″ in width, and 2¾″ in diameter, with a 0.37-gallon capacity.",
         "• Silky lining and piped inside hems for a premium finish.",
-        "• Perfect for festivals, travel, and everyday adventures.",
-        "Size guide",
-        "----- -----------------------------------",
-        "FANNY PACK CIRCUMFERENCE (inches)",
-        "S/M   27 ⅝-37 ¾",
-        "M/L   35 ⅜-52 ⅜",
-        "----- -----------------------------------"
+        "• Perfect for festivals, travel, and everyday adventures."
       ],
       "collections": [
         "Products",
@@ -4922,6 +6320,22 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Fanny Pack Circumference (inches)"
+        ],
+        "rows": [
+          [
+            "S/M",
+            "27 ⅝-37 ¾"
+          ],
+          [
+            "M/L",
+            "35 ⅜-52 ⅜"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dance-battle-waist-bag/01.webp",
@@ -5020,17 +6434,7 @@
         "• Elastic waistband with a flat white drawstring",
         "• Mesh side pockets",
         "• No inner lining",
-        "• Fabric is OEKO-TEX Standard 100 and Global Recycled Standard (GRS) certified",
-        "Size guide",
-        "----- ---------------- ---------------",
-        "WAIST (inches)   HIPS (inches)",
-        "XS    29 ⅞             37",
-        "S     31 ½             38 ⅝",
-        "M     33 ⅛             40 ⅛",
-        "L     36 ¼             43 ¼",
-        "XL    39 ⅜             46 ½",
-        "2XL   42 ½             49 ⅝",
-        "----- ---------------- ---------------"
+        "• Fabric is OEKO-TEX Standard 100 and Global Recycled Standard (GRS) certified"
       ],
       "collections": [
         "Men",
@@ -5051,6 +6455,45 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Waist (inches)",
+          "Hips (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "29 ⅞",
+            "37"
+          ],
+          [
+            "S",
+            "31 ½",
+            "38 ⅝"
+          ],
+          [
+            "M",
+            "33 ⅛",
+            "40 ⅛"
+          ],
+          [
+            "L",
+            "36 ¼",
+            "43 ¼"
+          ],
+          [
+            "XL",
+            "39 ⅜",
+            "46 ½"
+          ],
+          [
+            "2XL",
+            "42 ½",
+            "49 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/spread-plur-unisex-athletic-long-shorts/01.webp",
@@ -5082,18 +6525,7 @@
         "• Unisex fit",
         "• Solid construction with overlock seams, sturdy neck tape, and a silver YKK zipper",
         "• 2 front pockets",
-        "• OEKO-TEX 100 standard certified fabric",
-        "Size Guide",
-        "-----------------------------------------------------------------------",
-        "Hips (inches)     Waist (inches)    Chest (inches)",
-        "----------------- ----------------- ----------------- -----------------",
-        "XS                37                29 ⅞              36 ¼",
-        "S                 38 ⅝              31 ½              37 ¾",
-        "M                 40 ⅛              33 ⅛              39 ⅜",
-        "L                 43 ¼              36 ¼              42 ½",
-        "XL                46 ½              39 ⅜              45 ⅝",
-        "2XL               49 ⅝              42 ½              48 ⅞",
-        "-----------------------------------------------------------------------"
+        "• OEKO-TEX 100 standard certified fabric"
       ],
       "collections": [
         "Men",
@@ -5115,6 +6547,52 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Hips (inches)",
+          "Waist (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "37",
+            "29 ⅞",
+            "36 ¼"
+          ],
+          [
+            "S",
+            "38 ⅝",
+            "31 ½",
+            "37 ¾"
+          ],
+          [
+            "M",
+            "40 ⅛",
+            "33 ⅛",
+            "39 ⅜"
+          ],
+          [
+            "L",
+            "43 ¼",
+            "36 ¼",
+            "42 ½"
+          ],
+          [
+            "XL",
+            "46 ½",
+            "39 ⅜",
+            "45 ⅝"
+          ],
+          [
+            "2XL",
+            "49 ⅝",
+            "42 ½",
+            "48 ⅞"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/melting-disco-bomber-jacket/01.webp",
@@ -5154,15 +6632,7 @@
         "• Classic longline fit with a crew neck",
         "• Side-seamed with blind stitching on the sleeves and hem for a sleek style.",
         "• Tear-away label for added comfort.",
-        "• Tightly knit, ultra-soft fabric.",
-        "Size guide",
-        "---- ---------------------- ----------------",
-        "BODY LENGTH (inches)   CHEST (inches)",
-        "S    20 ¼                   33-36",
-        "M    21 ¼                   37-40",
-        "L    22 ¼                   41-44",
-        "XL   23 ¼                   45-48",
-        "---- ---------------------- ----------------"
+        "• Tightly knit, ultra-soft fabric."
       ],
       "collections": [
         "Women",
@@ -5188,6 +6658,35 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Body Length (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "20 ¼",
+            "33-36"
+          ],
+          [
+            "M",
+            "21 ¼",
+            "37-40"
+          ],
+          [
+            "L",
+            "22 ¼",
+            "41-44"
+          ],
+          [
+            "XL",
+            "23 ¼",
+            "45-48"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/deal-with-it-cat-high-waisted-tee/01.webp",
@@ -5226,15 +6725,7 @@
         "• Classic longline fit with a crew neck",
         "• Side-seamed with blind stitching on the sleeves and hem for a sleek style.",
         "• Tear-away label for added comfort.",
-        "• Tightly knit, ultra soft fabric.",
-        "Size guide",
-        "---- ---------------------- ----------------",
-        "BODY LENGTH (inches)   CHEST (inches)",
-        "S    20 ¼                   33-36",
-        "M    21 ¼                   37-40",
-        "L    22 ¼                   41-44",
-        "XL   23 ¼                   45-48",
-        "---- ---------------------- ----------------"
+        "• Tightly knit, ultra soft fabric."
       ],
       "collections": [
         "Women",
@@ -5252,6 +6743,35 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Body Length (inches)",
+          "Chest (inches)"
+        ],
+        "rows": [
+          [
+            "S",
+            "20 ¼",
+            "33-36"
+          ],
+          [
+            "M",
+            "21 ¼",
+            "37-40"
+          ],
+          [
+            "L",
+            "22 ¼",
+            "41-44"
+          ],
+          [
+            "XL",
+            "23 ¼",
+            "45-48"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dark-side-of-plur-high-waisted-tee/01.webp",
@@ -5290,16 +6810,7 @@
         "• Relaxed fit with a cropped length for a modern, flattering silhouette.",
         "• Ribbed crew neck and dropped shoulders for a laid-back style.",
         "• Side-seamed construction and double-needle hems for long-lasting quality.",
-        "• Preshrunk to maintain its fit wash after wash.",
-        "Size guide",
-        "---- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS   17 ⅜              18 ¾",
-        "S    17 ¾              19 ¾",
-        "M    18 ¼              20 ⅝",
-        "L    18 ¾              21 ⅝",
-        "XL   19 ⅛              22 ⅝",
-        "---- ----------------- ----------------"
+        "• Preshrunk to maintain its fit wash after wash."
       ],
       "collections": [
         "Women",
@@ -5327,6 +6838,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "17 ⅜",
+            "18 ¾"
+          ],
+          [
+            "S",
+            "17 ¾",
+            "19 ¾"
+          ],
+          [
+            "M",
+            "18 ¼",
+            "20 ⅝"
+          ],
+          [
+            "L",
+            "18 ¾",
+            "21 ⅝"
+          ],
+          [
+            "XL",
+            "19 ⅛",
+            "22 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/disco-kitten-relaxed-crop-tee/01.webp",
@@ -5373,16 +6918,7 @@
         "• Relaxed fit with a cropped length for a modern, flattering silhouette.",
         "• Ribbed crew neck and dropped shoulders for a laid-back style.",
         "• Side-seamed construction and double-needle hems for long-lasting quality.",
-        "• Preshrunk to maintain its fit wash after wash.",
-        "Size guide",
-        "---- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS   17 ⅜              18 ¾",
-        "S    17 ¾              19 ¾",
-        "M    18 ¼              20 ⅝",
-        "L    18 ¾              21 ⅝",
-        "XL   19 ⅛              22 ⅝",
-        "---- ----------------- ----------------"
+        "• Preshrunk to maintain its fit wash after wash."
       ],
       "collections": [
         "Women",
@@ -5411,6 +6947,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "17 ⅜",
+            "18 ¾"
+          ],
+          [
+            "S",
+            "17 ¾",
+            "19 ¾"
+          ],
+          [
+            "M",
+            "18 ¼",
+            "20 ⅝"
+          ],
+          [
+            "L",
+            "18 ¾",
+            "21 ⅝"
+          ],
+          [
+            "XL",
+            "19 ⅛",
+            "22 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/cosmic-keyboard-kitten-relaxed-crop-tee/01.webp",
@@ -5465,16 +7035,7 @@
         "• Relaxed fit with a cropped length for a modern, flattering silhouette.",
         "• Ribbed crew neck and dropped shoulders for a laid-back style.",
         "• Side-seamed construction and double-needle hems for long-lasting quality.",
-        "• Preshrunk to maintain its fit wash after wash.",
-        "Size guide",
-        "---- ----------------- ----------------",
-        "LENGTH (inches)   WIDTH (inches)",
-        "XS   17 ⅜              18 ¾",
-        "S    17 ¾              19 ¾",
-        "M    18 ¼              20 ⅝",
-        "L    18 ¾              21 ⅝",
-        "XL   19 ⅛              22 ⅝",
-        "---- ----------------- ----------------"
+        "• Preshrunk to maintain its fit wash after wash."
       ],
       "collections": [
         "Women",
@@ -5503,6 +7064,40 @@
           ]
         }
       ],
+      "sizeGuide": {
+        "columns": [
+          "Size",
+          "Length (inches)",
+          "Width (inches)"
+        ],
+        "rows": [
+          [
+            "XS",
+            "17 ⅜",
+            "18 ¾"
+          ],
+          [
+            "S",
+            "17 ¾",
+            "19 ¾"
+          ],
+          [
+            "M",
+            "18 ¼",
+            "20 ⅝"
+          ],
+          [
+            "L",
+            "18 ¾",
+            "21 ⅝"
+          ],
+          [
+            "XL",
+            "19 ⅛",
+            "22 ⅝"
+          ]
+        ]
+      },
       "images": [
         {
           "file": "assets/designs/dj-kitten-relaxed-crop-tee/01.webp",
