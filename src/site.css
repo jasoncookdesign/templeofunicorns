@@ -162,3 +162,38 @@ p {
     scroll-behavior: auto !important;
   }
 }
+
+.table-wrap {
+  max-width: 100%;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.size-guide {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+
+.size-guide caption {
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.size-guide th,
+.size-guide td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.size-guide thead th,
+.size-guide tbody th {
+  text-align: left;
+}
+
+.size-guide td {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
