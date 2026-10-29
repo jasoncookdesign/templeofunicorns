@@ -2,7 +2,7 @@
 
 A static design archive for the Temple of Unicorns streetwear brand, published at https://templeofunicorns.com. The pages are plain HTML, CSS, and JavaScript with no framework and no runtime dependencies. There is no cart, no checkout, and no payment information. Visitors browse past designs and, for designs marked on-request, email the shop to ask about them.
 
-A small Node script reads one data file and generates the catalog pages. The story page, the 404 page, and the stylesheet and script are written by hand.
+A small Node script reads one data file and generates the catalog pages. The story page, the 404 page, the stylesheet, the script, and the logo files are written by hand.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ node build.mjs      # build the site into docs/
 | Flag | Default | Meaning |
 | --- | --- | --- |
 | `--data` | `data/designs.json` | The data file |
-| `--src` | `src` | Hand-written pages, stylesheet, and script |
+| `--src` | `src` | Hand-written pages, stylesheet, script, and `logo/` folder |
 | `--assets` | `assets` | Root folder that holds the design images |
 | `--out` | `docs` | Output folder |
 
@@ -84,21 +84,29 @@ A design that breaks a rule makes the build throw `DataError`, whose `code` is o
 | --- | --- |
 | `data/designs.json` | The data file |
 | `assets/designs/<handle>/NN.<ext>` | Design images (`01`, `02`, ...) |
-| `src/` | Hand-written `index.html`, `404.html`, `site.css`, `site.js`, copied unchanged into the output |
+| `src/` | Hand-written `index.html`, `404.html`, `site.css`, `site.js`, and the `logo/` folder, copied unchanged into the output |
 | `build.mjs` | The site generator |
 | `tests/` | Test suite and fixtures (`node --test`) |
 | `docs/` | Generated site, committed and served by GitHub Pages |
 
 ## What the build writes to `docs/`
 
-- Everything in `src/` (`index.html`, `404.html`, `site.css`, `site.js`), copied unchanged. Every generated page links `/site.css` and `/site.js`.
+- Everything in `src/` (`index.html`, `404.html`, `site.css`, `site.js`, and the `logo/` folder), copied unchanged. Every generated page links `/site.css` and `/site.js`.
 - `CNAME` (containing `templeofunicorns.com`) and `.nojekyll`.
 - `assets/designs/...`: the images of listed designs. Images of unlisted designs are not published.
-- `apparel/index.html`: every listed design with its title, link, and first image.
+- `apparel/index.html`: every listed design with its title, link, and first image, in alphabetical order by title (case-insensitive, ties broken by handle).
 - `apparel/<handle>/index.html`: one page per listed design.
 - `products/<handle>/index.html`: one redirect page per design, listed or not, so old store links keep working. Listed designs redirect to their page; unlisted designs redirect to `/apparel/`.
 
 The build is deterministic, so running it twice gives byte-identical output. It deletes and recreates `docs/apparel/`, `docs/products/`, and `docs/assets/` on every run, so removing a design from the data file removes its pages and images.
+
+## Logo files
+
+`src/logo/` holds the brand artwork as white SVG files with the viewBox cropped to the artwork: `lockup-white.svg` (the wide lockup on the story page), `wordmark-white.svg` (the wordmark in the page header), and `favicon.svg` (the browser tab icon). The build copies the folder to `docs/logo/` with the rest of `src/`. When `src/logo/wordmark-white.svg` exists, generated pages show it in the header as an image; when `src/logo/favicon.svg` exists, generated pages link it as the icon. Without them, the header shows the site name as text and no icon link is written, so the build works with any source folder.
+
+## Design
+
+The site uses a neutral charcoal page (`color-scheme: dark`) so the design images are the only color. Text meets a 4.5:1 contrast ratio or better, focus rings are 3px, interactive targets are at least 44px, and animation is turned off for visitors who ask for reduced motion. Catalog tiles are uniform square frames with the whole image visible and a title area two lines tall; longer titles wrap in full. A detail page lists the status, colors, and sizes as labelled rows, followed by the description and the size guide.
 
 Do not edit files in `docs/` by hand; change `src/`, `data/`, or `assets/` and run `node build.mjs`.
 
