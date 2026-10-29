@@ -74,6 +74,8 @@ Data is validated before anything is written. The build also fails, without writ
 
 A design with a `sizeGuide` shows it on its page, after the description, as one table captioned "Size guide". The first row holds the column headings, and the first cell of each row is a row heading. The table sits in a wrapper that scrolls sideways on narrow screens; the wrapper is a labelled region ("Size guide") that can be focused with the keyboard and shows a focus ring. All text is escaped. The build renders a size guide whenever the data has one, whatever the design's `availability`.
 
+The "Ask about this design" link on each on-request page is a `mailto:` link addressed to `contact@templeofunicorns.com`, with the design's title in the subject and a short greeting in the body. This is the only email address used anywhere in the generated site or the hand-written sources in `src/`; it is set by the `RECIPIENT` constant in `build.mjs`, and the tests fail if any other address appears.
+
 There is no price field. Any design with a key named `price`, or any key containing "price" in any letter case, is rejected.
 
 A design that breaks a rule makes the build throw `DataError`, whose `code` is one of `duplicate-handle`, `missing-field`, `bad-availability`, `bad-status`, `missing-alt`, `no-images`, `price-field`, `bad-handle`, `bad-published-at`, or `bad-size-guide`. The `missing-field` code also covers a field of the wrong shape: a `description`, `options`, or `collections` value that is not the type described above, a `listed` value that is not a boolean, and an image `file` that does not start with `assets/`. Size guides are validated for every design, listed or not.

@@ -19,7 +19,7 @@ export const DEFAULTS = {
   outDir: 'docs',
 };
 
-const RECIPIENT = 'templeofunicorns@jasoncookdesign.com';
+const RECIPIENT = 'contact@templeofunicorns.com';
 const SITE = 'https://templeofunicorns.com';
 const REQUIRED = ['handle', 'title', 'description', 'listed', 'availability', 'status'];
 // Folders in the output that the build owns and recreates on every run.
