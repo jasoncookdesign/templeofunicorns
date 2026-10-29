@@ -1,13 +1,14 @@
-# REPO_NAME
+# Temple of Unicorns
 
-<One line: what this is and what merging to main does (deploys? nothing?).>
+A static archive of Temple of Unicorns designs. `main` is published by GitHub Pages from `docs/`, so merging to `main` deploys the site.
 
-- Preview / run: <command>
-- Generated output (never hand-edit): <paths, or "none">
-- Repo conventions: <anything specific>
+- Run the tests: `npm test`
+- Build the site: `node build.mjs`
+- Generated output (never hand-edit): `docs/`. Change `src/`, `data/`, or `assets/`, run `node build.mjs`, and commit the regenerated `docs/` with the change.
+- Repo conventions: the README documents the data file, flags, and error codes; update it in the same change as any behavior it describes.
 
-## TDD exception (recorded ruling)
-<What has no test runner here and is exempt; what gets full TDD.>
+## Testing
+Every behavior change comes with a test. A change with no testable behavior (for example copy or styling only) says so in the PR description.
 
 <!-- BEGIN agentic-sdlc disciplines @6ea2915 -->
 
